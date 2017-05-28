@@ -39,9 +39,9 @@
     var $second_question = parseInt($("input[name=q2]:checked").val());
 
     if (($first_question == 1) && ($second_question == 1)) {
-      document.getElementById("passedFinaltest").innerHTML = "Congratulations, you can apply for Carer's Allowance! Click here for further information on how to do this.";
+      document.getElementById("passedFinaltest").innerHTML = <"You are eligible for Carer's Allowance and claiming should have no effect on the benefits of the person you care for. Click here for further information on how to claim.";
     } else {
-      document.getElementById("passedFinaltest").innerHTML = "Unfortunately, you are not elligible";
+      document.getElementById("passedFinaltest").innerHTML = "Caution: Claiming Carer's Allowance is likely to reduce the benefit entitlement of the person you care for";
     }
   }
   </script>
